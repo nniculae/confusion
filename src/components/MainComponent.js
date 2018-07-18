@@ -12,7 +12,7 @@ class Main extends Component {
       selectedDish: null
     };
   }
-  onDishSelect = (id) =>{
+  onDishSelect = (id) => {
     this.setState({selectedDish: id});
   }
   render() {
@@ -24,9 +24,17 @@ class Main extends Component {
           </div>
         </Navbar>
         <div className="container">
-        <DishDetail  selectedDish={this.state.dishes.filter((dish) => dish.id === this.state.selectedDish)[0]}/>
-        <Menu  dishes={this.state.dishes}   onDishSelect={(id) =>{ this.onDishSelect(id)} }/>
-         
+          <Menu
+            dishes={this.state.dishes}
+            onDishSelect={(id) => {
+            this.onDishSelect(id)
+          }}/>
+          <DishDetail
+            selectedDish={this
+            .state
+            .dishes
+            .filter((dish) => dish.id === this.state.selectedDish)[0]}/>
+
         </div>
       </div>
     );
