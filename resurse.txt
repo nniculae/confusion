@@ -1,0 +1,11 @@
+Gatsby - static generator
+
+https://github.com/gatsbyjs/gatsby
+
+Exemple:
+
+http://digitalpsychology.io/ (pt. Rebecca)
+https://oliverbenns.com/ (portofolio)
+https://dlbn.co/en/
+--------------------------------
+https://github.com/wp-graphql/wp-graphql
