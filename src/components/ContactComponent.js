@@ -8,7 +8,6 @@ import {
     Label,
     Input,
     Col,
-    Row,
     FormFeedback
 } from 'reactstrap';
 import {Link} from 'react-router-dom';
@@ -233,7 +232,6 @@ class Contact extends Component {
                                     <Input
                                         onChange={this.handleInputChange}
                                         type="select"
-                                        name="select"
                                         id="contactType"
                                         name="contactType"
                                         value={this.state.contactType}>
